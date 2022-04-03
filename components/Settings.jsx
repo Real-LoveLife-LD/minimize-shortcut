@@ -14,8 +14,8 @@ module.exports = class MinimizeShortcutSettings extends React.Component {
 						updateSetting('minimize-shortcut', e);
 					}}
 					onReset={() => {
-						this.setState({ value: 'Control+Y' });
-						updateSetting('minimize-shortcut', 'Ctrl+Y');
+						this.setState({ value: 'Control+G' });
+						updateSetting('minimize-shortcut', 'Ctrl+G');
 					}}
 				>
 					Choose a shortcut
